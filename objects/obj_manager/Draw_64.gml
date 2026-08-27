@@ -1,5 +1,6 @@
 draw_text(20, 20, string(global.potato))
 draw_text(20, 50, string(global.money))
+draw_text(20, 80, string(global.cooked_potato))
 
 /*draw_set_alpha(alpha)
 draw_set_colour(color)

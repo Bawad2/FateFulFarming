@@ -9,6 +9,7 @@ global.sec = 0
 global.min = 0
 global.day_ = 1
 global.potato = 5
+global.cooked_potato = 0
 global.money = 0
 
 

@@ -7,3 +7,12 @@ if (place_meeting(x, y, obj_player) && cooking = false)
 		alarm[0] = 3600
 	}
 }
+
+if (cooking)
+{
+	sprite_index = spr_cooking_station_on
+}
+else
+{
+	sprite_index = spr_cooking_station_off
+}
