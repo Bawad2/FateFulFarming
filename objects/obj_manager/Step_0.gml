@@ -35,8 +35,22 @@ if (global.sec = 0)
 	global.sec = 0
 }
 
-/*alpha = global.min / 100
-depth = -100*/
+global.fatigue -= 0.015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 var current_key = -1;
 
