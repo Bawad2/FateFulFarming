@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_PAIN",
   "parent":{
-    "name":"A good days work",
-    "path":"A good days work.yyp",
+    "name":"sounds",
+    "path":"folders/sounds.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
