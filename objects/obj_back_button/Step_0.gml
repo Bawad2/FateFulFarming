@@ -4,6 +4,6 @@ if (mouse_check_button_pressed(mb_left))
 
     if (inst != noone)
     {
-        room_goto(rm_credits);
+        room_goto(rm_menu);
     }
 }
