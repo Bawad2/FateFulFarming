@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
 //depth setting
 depth = -100;
-=======
 // Moving
->>>>>>> Stashed changes
 
 press_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 press_left = keyboard_check(vk_left) or keyboard_check(ord("Q")) || keyboard_check(ord("A"));
