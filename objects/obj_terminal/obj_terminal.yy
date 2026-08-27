@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_dropoff",
+  "%Name":"obj_terminal",
   "eventList":[],
   "managed":true,
-  "name":"obj_dropoff",
+  "name":"obj_terminal",
   "overriddenProperties":[],
   "parent":{
     "name":"objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_dropoff_closed",
-    "path":"sprites/spr_dropoff_closed/spr_dropoff_closed.yy",
+    "name":"spr_terminal",
+    "path":"sprites/spr_terminal/spr_terminal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
