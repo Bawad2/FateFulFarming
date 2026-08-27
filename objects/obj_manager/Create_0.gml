@@ -12,6 +12,7 @@ global.potato = 5
 global.cooked_potato = 0
 global.money = 0
 global.fatigue = 440
+global.hunger = 100
 
 
 konami_sequence = [];

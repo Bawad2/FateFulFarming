@@ -1,14 +1,14 @@
 {
   "FolderOrderSettings":[
     {"name":"fonts","order":9,"path":"folders/fonts.yy",},
-    {"name":"musics","order":5,"path":"folders/musics.yy",},
-    {"name":"objects_ui","order":3,"path":"folders/objects_ui.yy",},
-    {"name":"objects","order":1,"path":"folders/objects.yy",},
-    {"name":"rooms","order":8,"path":"folders/rooms.yy",},
+    {"name":"musics","order":7,"path":"folders/musics.yy",},
+    {"name":"objects_managers","order":1,"path":"folders/objects_managers.yy",},
+    {"name":"objects_ui","order":2,"path":"folders/objects_ui.yy",},
+    {"name":"objects","order":3,"path":"folders/objects.yy",},
     {"name":"sounds","order":6,"path":"folders/sounds.yy",},
     {"name":"sprites_ui","order":4,"path":"folders/sprites_ui.yy",},
-    {"name":"sprites","order":2,"path":"folders/sprites.yy",},
-    {"name":"tilesets","order":7,"path":"folders/tilesets.yy",},
+    {"name":"sprites","order":5,"path":"folders/sprites.yy",},
+    {"name":"tilesets","order":8,"path":"folders/tilesets.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_back_button","order":2,"path":"objects/obj_back_button/obj_back_button.yy",},
@@ -34,7 +34,6 @@
     {"name":"rm_farm","order":1,"path":"rooms/rm_farm/rm_farm.yy",},
     {"name":"rm_start","order":3,"path":"rooms/rm_start/rm_start.yy",},
     {"name":"msc_farm","order":1,"path":"sounds/msc_farm/msc_farm.yy",},
-    {"name":"snd_PAIN","order":10,"path":"sounds/snd_PAIN/snd_PAIN.yy",},
     {"name":"Sound3","order":2,"path":"sounds/Sound3/Sound3.yy",},
     {"name":"spr_back_button","order":3,"path":"sprites/spr_back_button/spr_back_button.yy",},
     {"name":"spr_bed","order":8,"path":"sprites/spr_bed/spr_bed.yy",},
