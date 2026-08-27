@@ -1,4 +1,5 @@
-//Admin commands (to remove later
+//Admin commands (to remove later)
+
 if (keyboard_check(ord("R")))
 {
 	game_restart()
@@ -38,8 +39,10 @@ if (global.sec = 0)
 
 // Fatigue system (wip)
 
-global.fatigue -= 0.015
-
+if (room = rm_farm)
+{
+	global.fatigue -= 0.015
+}
 
 
 

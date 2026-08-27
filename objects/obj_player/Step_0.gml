@@ -1,5 +1,7 @@
 //depth setting
+
 depth = -100;
+
 // Moving
 
 press_right = keyboard_check(vk_right) or keyboard_check(ord("D"));

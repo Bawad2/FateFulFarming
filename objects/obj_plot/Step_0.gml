@@ -8,6 +8,8 @@ if (planted = false) && place_meeting(x, y, obj_player)
         global.potato -= 1;
 		global.fatigue -= 1
 		water_phase = 0
+		plant_wait = true
+		alarm[1] = 10
     }
 }
 
@@ -16,7 +18,7 @@ if (planted = false) && place_meeting(x, y, obj_player)
 
 if (planted = true) && place_meeting(x, y, obj_player) && (keyboard_check_pressed(ord("E"))) && water_limit < 2
 {
-    if (watered = false)
+    if (watered = false) && (plant_wait = false)
     {
 		watered = true
 		water_limit ++
