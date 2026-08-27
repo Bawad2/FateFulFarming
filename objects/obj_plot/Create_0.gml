@@ -1,3 +1,5 @@
+// Var def
+
 planted = false
 day = 0
 watered = false

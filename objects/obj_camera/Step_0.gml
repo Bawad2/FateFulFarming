@@ -1,3 +1,5 @@
+// Camera / Viewports setting
+
 var cam = view_camera[0];
 
 var cam_w = camera_get_view_width(cam);

@@ -1,2 +1,3 @@
-close = false
+// Var def
 
+close = false

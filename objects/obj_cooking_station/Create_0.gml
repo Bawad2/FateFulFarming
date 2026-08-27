@@ -1,1 +1,3 @@
+// Var def
+
 cooking = false

@@ -1,5 +1,9 @@
+<<<<<<< Updated upstream
 //depth setting
 depth = -100;
+=======
+// Moving
+>>>>>>> Stashed changes
 
 press_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 press_left = keyboard_check(vk_left) or keyboard_check(ord("Q")) || keyboard_check(ord("A"));
@@ -28,12 +32,16 @@ else
 }
 
 
+// Player mouse rotation
 
 if (sprite_index != spr_car)
 {
 	var _mouse_angle = point_direction(x, y, mouse_x, mouse_y)
 	image_angle = _mouse_angle
 }
+
+
+// Collisions
 
 if (place_meeting(x + hspeed, y, obj_invisible_wall))
 {
@@ -52,9 +60,6 @@ if (place_meeting(x, y + vspeed, obj_invisible_wall))
     }
     vspeed = 0;
 }
-
-
-
 
 
 if (place_meeting(x + hspeed, y, obj_gate)) && (obj_gate.close = true)
@@ -76,6 +81,7 @@ if (place_meeting(x, y + vspeed, obj_gate)) && (obj_gate.close = true)
 }
 
 
+// House switch roof
 
 if (place_meeting(x, y, obj_house_detect))
 {
@@ -90,7 +96,10 @@ else
 	obj_landline.sprite_index = spr_void
 }
 
-if ( global.min >= 8)
+
+// Sleeping
+
+if ( global.min >= 6)
 {
 	if (place_meeting(x, y, obj_bed)) && (keyboard_check_pressed(ord("E")))
 	{
@@ -99,6 +108,9 @@ if ( global.min >= 8)
 		obj_plot.water_limit = 0
 	}
 }
+
+
+// Selling food
 
 if (place_meeting(x, y, obj_dropoff)) && (keyboard_check_pressed(ord("E")))
 {
@@ -110,6 +122,7 @@ if (place_meeting(x, y, obj_dropoff)) && (keyboard_check_pressed(ord("E")))
 }
 
 
+// Changing rooms (start & end)
 
 if (place_meeting(x, y, obj_goto_farm))
 {

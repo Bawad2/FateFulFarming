@@ -1,3 +1,5 @@
+// Cooking
+
 if (place_meeting(x, y, obj_player) && cooking = false)
 {
 	(keyboard_check_pressed(ord("E")))
@@ -7,6 +9,8 @@ if (place_meeting(x, y, obj_player) && cooking = false)
 		alarm[0] = 3600
 	}
 }
+
+// Sprite changing
 
 if (cooking)
 {

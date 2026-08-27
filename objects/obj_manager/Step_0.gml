@@ -1,3 +1,4 @@
+//Admin commands (to remove later
 if (keyboard_check(ord("R")))
 {
 	game_restart()
@@ -13,14 +14,14 @@ if (keyboard_check(ord("Y")))
 	global.potato += 10
 }
 
-if (keyboard_check(ord("U")))
+if (keyboard_check(ord("U")))       // this one has a bug
 {
 	obj_plot.watered = false
 	obj_plot.water_phase ++
 	obj_plot.water_limit ++
 }
 
-
+// Timers
 global.tick ++
 
 if (global.tick = 60)
@@ -34,6 +35,8 @@ if (global.sec = 0)
 	global.min ++
 	global.sec = 0
 }
+
+// Fatigue system (wip)
 
 global.fatigue -= 0.015
 
@@ -50,7 +53,7 @@ global.fatigue -= 0.015
 
 
 
-
+// Konami code
 
 var current_key = -1;
 

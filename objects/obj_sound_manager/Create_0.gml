@@ -1,3 +1,5 @@
+// Music def (muted for now)
+
 /*if (room = rm_menu)
 {
 	audio_play_sound(msc_menu, 1, true)

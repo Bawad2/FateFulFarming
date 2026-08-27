@@ -1,3 +1,5 @@
+// Close / Open system (broken will be add when the sprite is done)
+
 if (global.day_ = 8)
 {
 	close = false
