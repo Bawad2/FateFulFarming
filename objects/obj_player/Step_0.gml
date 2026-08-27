@@ -1,6 +1,9 @@
+//depth setting
+depth = -100;
+
 press_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-press_left = keyboard_check(vk_left) or keyboard_check(ord("Q"));
-press_up = keyboard_check(vk_up) or keyboard_check(ord("Z"));
+press_left = keyboard_check(vk_left) or keyboard_check(ord("Q")) || keyboard_check(ord("A"));
+press_up = keyboard_check(vk_up) or keyboard_check(ord("Z")) || keyboard_check(ord("W"));
 press_down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 
 move_h = press_right - press_left;
