@@ -11,6 +11,7 @@ global.day_ = 1
 global.potato = 5
 global.cooked_potato = 0
 global.money = 0
+global.fatigue = 440
 
 
 konami_sequence = [];
