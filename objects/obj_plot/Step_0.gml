@@ -16,7 +16,7 @@ if (planted = false)  and selected
 
 // Watering
 
-if (planted = true) && place_meeting(x, y, obj_player) && (keyboard_check_pressed(ord("E"))) && water_limit < 2
+if (planted = true) && place_meeting(x, y, obj_player) && (keyboard_check_released(ord("E"))) && water_limit < 2
 {
     if (watered = false) && (plant_wait = false)
     {

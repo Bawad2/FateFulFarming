@@ -1,4 +1,4 @@
-
+draw_self();
 //Highlight if selected
 if selected { draw_sprite_ext( sprite_index, x, y, image_index, 2, 2,image_angle, c_teal, 1) } 
 
