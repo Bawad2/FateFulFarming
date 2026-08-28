@@ -1,6 +1,6 @@
 // Planting
 
-if (planted = false) && place_meeting(x, y, obj_player)
+if (planted = false)  and selected
 {
     if (keyboard_check_pressed(ord("E")) && global.potato > 0)
     {

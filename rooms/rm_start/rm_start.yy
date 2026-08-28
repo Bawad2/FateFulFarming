@@ -44,7 +44,7 @@
           6,-12,11,7,4,-2147483648,-2147483648,6,11,0,0,-9,11,7,4,-2147483648,-2147483648,6,11,0,0,-9,11,4,4,-2147483648,
           -2147483648,6,-12,11,4,4,-2147483648,-2147483648,6,-12,11,4,4,-2147483648,-2147483648,6,-12,11,4,4,-2147483648,
           -2147483648,6,-12,11,4,4,-2147483648,-2147483648,6,-6,11,-6,1,-4,-2147483648,-6,1,-16,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet_3","path":"tilesets/TileSet_3/TileSet_3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"tile_Trees","path":"tilesets/tile_Trees/tile_Trees.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_10E67AEF","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_10E67AEF","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"x":672.0,"y":0.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_6BBD9632","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_6BBD9632","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_road","path":"sprites/spr_road/spr_road.yy",},"x":672.0,"y":32.0,},
@@ -84,7 +84,7 @@
           3,10,5,2,3,10,5,2,3,10,5,2,3,10,5,2,3,10,3,5,10,2,3,5,10,2,3,5,10,2,3,5,10,2,3,5,10,2,3,5,2,10,5,5,2,
           10,5,5,2,10,5,5,2,10,5,5,2,10,5,5,2,10,3,10,5,2,3,10,5,2,3,10,5,2,3,10,5,2,3,10,5,2,3,10,3,5,10,2,3,
           5,10,2,3,5,10,2,3,5,10,2,3,5,10,2,3,5,2,10,5,5,2,10,5,5,2,10,5,5,2,10,5,5,2,10,5,5,2,10,
-        ],},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],},"tilesetId":{"name":"tile_Outiside","path":"tilesets/tile_Outiside/tile_Outiside.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_start",
