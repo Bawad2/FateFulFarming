@@ -21,7 +21,7 @@ if (!planted  and selected )
 
 if planted && selected && interactKey && water_limit < 2
 {
-    if (watered = false) && (plant_wait = false) 
+    if (watered = false) && (plant_wait = false)
     {	
 		day = global.day;
 		watered = true

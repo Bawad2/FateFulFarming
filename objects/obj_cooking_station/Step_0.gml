@@ -6,7 +6,7 @@ if (place_meeting(x, y, obj_player) && cooking = false && global.potato > 0)
 	{
 		cooking = true
 		global.potato -= 1
-		alarm[0] = 3600
+		alarm[0] = 1200
 	}
 }
 

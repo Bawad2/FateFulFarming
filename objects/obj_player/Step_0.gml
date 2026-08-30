@@ -120,6 +120,14 @@ if  obj_dropoff.selected && (keyboard_check_pressed(ord("E")))
 	}
 }
 
+if (place_meeting(x, y, obj_terminal)) && (global.money > 0)
+{
+	if (keyboard_check_pressed(ord("E")))
+	{
+		global.money --
+		global.potato ++
+	}
+}
 
 // Changing rooms (start & end)
 
