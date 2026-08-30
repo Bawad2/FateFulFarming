@@ -1,8 +1,10 @@
+interactKey = keyboard_check_pressed(ord("E"))
+
 // Planting
 
-if (planted = false) && place_meeting(x, y, obj_player)
+if (!planted  and selected )
 {
-    if (keyboard_check_pressed(ord("E")) && global.potato > 0)
+    if ( interactKey && global.potato > 0)
     {
         planted = true;
         global.potato -= 1;
@@ -16,7 +18,7 @@ if (planted = false) && place_meeting(x, y, obj_player)
 
 // Watering
 
-if (planted = true) && place_meeting(x, y, obj_player) && (keyboard_check_pressed(ord("E"))) && water_limit < 2
+if planted && selected && interactKey && water_limit < 2
 {
     if (watered = false) && (plant_wait = false)
     {

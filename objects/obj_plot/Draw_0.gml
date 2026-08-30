@@ -1,3 +1,8 @@
+
+//Highlight if selected
+if selected { draw_sprite_ext( sprite_index, x, y, image_index, 2, 2,image_angle, c_teal, 1) } 
+
+
 // Crops draw
 
 if (planted)
@@ -14,7 +19,7 @@ else
 
 if (watered)
 {
-	draw_sprite(spr_watered, 0, x, y)
+	draw_sprite(spr_watered, image_index, x, y)
 }
 else
 {

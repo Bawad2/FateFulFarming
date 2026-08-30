@@ -15,13 +15,6 @@ if (keyboard_check(ord("Y")))
 	global.potato += 10
 }
 
-if (keyboard_check(ord("U")))       // this one has a bug
-{
-	obj_plot.watered = false
-	obj_plot.water_phase ++
-	obj_plot.water_limit ++
-}
-
 // Timers
 global.tick ++
 
