@@ -5,14 +5,6 @@ if (global.day >= 8)
 	close = false
 }
 
-if (room = rm_start)
-{
-	close = false
-}
-else
-{
-	close = true
-}
 
 
 if (close = false)

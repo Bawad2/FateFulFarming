@@ -41,7 +41,7 @@ if harvestable && keyboard_check_pressed(ord("E")) and selected
 	planted = false
 	global.potato += 2;
 	harvestable = false;
-	harvested = true;
+
 
 }
 
@@ -58,6 +58,5 @@ if global.day > day
 if (water_phase > 3)
 {
 	harvestable = true;
-	harvested = false;
 	water_phase = 3
 }
