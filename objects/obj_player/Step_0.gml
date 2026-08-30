@@ -128,7 +128,7 @@ if (place_meeting(x, y, obj_goto_farm))
 	room_goto(rm_farm)
 }
 
-if (place_meeting(x, y, obj_goto_farm))
+if (place_meeting(x, y, obj_goto_end))
 {
-	room_goto(rm_farm)
+	room_goto(rm_end)
 }

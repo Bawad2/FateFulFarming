@@ -1,3 +1,10 @@
 // Var def
 
-close = false
+if (room = rm_start)
+{
+	close = false
+}
+else
+{
+	close = true
+}

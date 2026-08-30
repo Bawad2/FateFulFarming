@@ -120,7 +120,7 @@
   "name":"fnt_Pixel",
   "parent":{
     "name":"fonts",
-    "path":"folders/fonts.yy",
+    "path":"folders/tilesets/fonts.yy",
   },
   "pointRounding":0,
   "ranges":[

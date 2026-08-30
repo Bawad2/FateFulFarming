@@ -1,19 +1,3 @@
-//Admin commands (to remove later)
-
-if (keyboard_check(ord("R")))
-{
-	game_restart()
-}
-
-if (keyboard_check(ord("T")))
-{
-	game_end()
-}
-
-if (keyboard_check(ord("Y")))
-{
-	global.potato += 10
-}
 
 // Timers
 global.tick ++
