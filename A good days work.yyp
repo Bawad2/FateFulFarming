@@ -31,7 +31,7 @@
   },
   "name":"A good days work",
   "resources":[
-    {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"fnt_Pixel","path":"fonts/fnt_Pixel/fnt_Pixel.yy",},},
     {"id":{"name":"obj_back_button","path":"objects/obj_back_button/obj_back_button.yy",},},
     {"id":{"name":"obj_bed","path":"objects/obj_bed/obj_bed.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
@@ -51,6 +51,7 @@
     {"id":{"name":"obj_plot","path":"objects/obj_plot/obj_plot.yy",},},
     {"id":{"name":"obj_potato","path":"objects/obj_potato/obj_potato.yy",},},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
+    {"id":{"name":"obj_sleep_transition","path":"objects/obj_sleep_transition/obj_sleep_transition.yy",},},
     {"id":{"name":"obj_sound_manager","path":"objects/obj_sound_manager/obj_sound_manager.yy",},},
     {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},},
     {"id":{"name":"obj_terminal","path":"objects/obj_terminal/obj_terminal.yy",},},

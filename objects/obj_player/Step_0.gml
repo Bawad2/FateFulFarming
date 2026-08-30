@@ -100,7 +100,7 @@ else
 
 if ( global.min >= 6)
 {
-	if (place_meeting(x, y, obj_bed)) && (keyboard_check_pressed(ord("E")))
+	if obj_bed.selected && (keyboard_check_pressed(ord("E")))
 	{
 		obj_plot.day ++
 		global.day_ ++
@@ -111,7 +111,7 @@ if ( global.min >= 6)
 
 // Selling food
 
-if (place_meeting(x, y, obj_dropoff)) && (keyboard_check_pressed(ord("E")))
+if  obj_dropoff.selected && (keyboard_check_pressed(ord("E")))
 {
 	if (global.potato > 0)
 	{
