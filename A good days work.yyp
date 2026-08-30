@@ -10,7 +10,6 @@
   },
   "defaultScriptType":1,
   "Folders":[
-    {"$GMFolder":"","%Name":"fonts","folderPath":"folders/tilesets/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"musics","folderPath":"folders/musics.yy","name":"musics","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects_managers","folderPath":"folders/objects_managers.yy","name":"objects_managers","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects_ui","folderPath":"folders/objects_ui.yy","name":"objects_ui","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -21,6 +20,7 @@
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"group1","folderPath":"folders/sprites/group1.yy","name":"group1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"tilesets","folderPath":"folders/tilesets.yy","name":"tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"fonts","folderPath":"folders/tilesets/fonts.yy","name":"fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[
     {"link":"io.gamemaker.gm_filter_clouds-1.0.0","name":"io.gamemaker.gm_filter_clouds-1.0.0","path":"io.gamemaker.gm_filter_clouds-1.0.0.yyp",},

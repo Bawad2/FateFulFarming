@@ -31,7 +31,7 @@ if (room = rm_farm)
 	global.hunger -= 0.015
 }
 
-if (keyboard_check_pressed(ord("A")) && (global.cooked_potato > 0))
+if (keyboard_check_pressed(ord("F")) && (global.cooked_potato > 0))
 {
 	global.hunger += 30
 	global.cooked_potato --

@@ -1,6 +1,5 @@
 {
   "FolderOrderSettings":[
-    {"name":"fonts","order":13,"path":"folders/tilesets/fonts.yy",},
     {"name":"musics","order":6,"path":"folders/musics.yy",},
     {"name":"objects_managers","order":1,"path":"folders/objects_managers.yy",},
     {"name":"objects_ui","order":4,"path":"folders/objects_ui.yy",},
@@ -10,6 +9,7 @@
     {"name":"sprites","order":3,"path":"folders/sprites.yy",},
     {"name":"group1","order":18,"path":"folders/sprites/group1.yy",},
     {"name":"tilesets","order":8,"path":"folders/tilesets.yy",},
+    {"name":"fonts","order":13,"path":"folders/tilesets/fonts.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"obj_back_button","order":3,"path":"objects/obj_back_button/obj_back_button.yy",},
