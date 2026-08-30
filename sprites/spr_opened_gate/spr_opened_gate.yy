@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_opened_gate",
-  "bboxMode":0,
-  "bbox_bottom":116,
+  "bboxMode":2,
+  "bbox_bottom":117,
   "bbox_left":0,
-  "bbox_right":149,
+  "bbox_right":14,
   "bbox_top":42,
   "collisionKind":1,
   "collisionTolerance":0,

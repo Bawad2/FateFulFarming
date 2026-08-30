@@ -6,6 +6,7 @@ if (!planted  and selected )
 {
     if ( interactKey && global.potato > 0)
     {
+		harvestable = false;
         planted = true;
         global.potato -= 1;
 		global.fatigue -= 1
@@ -20,10 +21,10 @@ if (!planted  and selected )
 
 if planted && selected && interactKey && water_limit < 2
 {
-    if (watered = false) && (plant_wait = false)
-    {
+    if (watered = false) && (plant_wait = false) 
+    {	
+		day = global.day;
 		watered = true
-		water_limit ++
 		alarm[0] = 14400
 		obj_player.sprite_index = spr_watering
 		obj_player.alarm[0] = 150
@@ -33,20 +34,30 @@ if planted && selected && interactKey && water_limit < 2
 
 
 // Harvesting
+if harvestable { watered = false; }
 
-if (water_phase = 4) && keyboard_check_pressed(ord("E"))
+if harvestable && keyboard_check_pressed(ord("E")) and selected
 {
 	planted = false
-	global.potato += 2
-	water_phase = - 1
-	global.fatigue -= 0.5
+	global.potato += 2;
+	harvestable = false;
+	harvested = true;
+
 }
 
+//growing
+if instance_exists(obj_sleep_transition) and watered { water_phase += 1; }
 
+if global.day > day
+{	
+	watered = false;
+}
 
 // Growing limit
 
-if (water_phase > 4)
+if (water_phase > 3)
 {
-	water_phase = 4
+	harvestable = true;
+	harvested = false;
+	water_phase = 3
 }
