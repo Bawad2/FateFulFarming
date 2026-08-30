@@ -5,7 +5,7 @@ if selected { draw_sprite_ext( sprite_index, x, y, image_index, 2, 2,image_angle
 
 // Crops draw
 
-if (planted = true)
+if (planted)
 {
 	draw_sprite(spr_potato, water_phase, x, y)
 }
@@ -17,7 +17,11 @@ else
 
 // Draw water sprite
 
-if (watered = true)
+if (watered)
 {
 	draw_sprite(spr_watered, image_index, x, y)
+}
+else
+{
+	draw_sprite(spr_void, 0, x, y)
 }
